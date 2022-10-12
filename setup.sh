@@ -29,6 +29,7 @@ sudo apt install xmonad \
                      rofi \
                      polybar \
                      xorg \
+                     xinit \
                      open-vm-tools-desktop \
                      wmname \
                      flameshot \
