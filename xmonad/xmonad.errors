@@ -1,0 +1,8 @@
+$ ghc --make xmonad.hs -i -ilib -fforce-recomp -main-is main -v0 -outputdir /home/l4n22/.xmonad/build-x86_64-linux -o /home/l4n22/.xmonad/xmonad-x86_64-linux
+
+xmonad.hs:26:1: warning: [-Wtabs]
+    Tab character found here, and in 109 further locations.
+    Please use spaces instead.
+   |
+26 |          spawn "bash ~/.xmonad/bin/autostart.sh"
+   | ^^^^^^^^
