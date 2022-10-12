@@ -1,6 +1,8 @@
 mv xinitrc $HOME/.xinitrc
 mv zprofile $HOME/.zprofile
-
+mkdir $HOME/.config/alacritty
+mv alacritty.yml $HOME/.config/alacritty
+mv xmonad $HOME/.xmonad
 #INSTALL ALACRITTY : https://github.com/alacritty/alacritty/blob/master/INSTALL.md
 
 ## INSTALL CARGO : https://techviewleo.com/install-and-configure-alacritty-terminal-on-debian/
@@ -18,3 +20,5 @@ apt-get install cmake \
 git clone https://github.com/alacritty/alacritty.git
 cd alacritty
 cargo build --release
+
+
