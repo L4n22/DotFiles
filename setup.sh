@@ -36,7 +36,8 @@ sudo apt install xmonad \
                      xfce4-power-manager \
                      xsetroot \
                      mpd 
-
+#COMPILE XMONAD
+cd $HOME/.xmonad | xmonad --recompile
 #if the polybar is not shown, then uninstall i3
 #sudo apt remove i3
 
