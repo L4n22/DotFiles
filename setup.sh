@@ -22,3 +22,14 @@ cd alacritty
 cargo build --release
 
 
+sudo apt-get install xmonad \
+                     rofi \
+                     polybar \
+                     xorg \
+                     open-vm-tools-desktop \
+                     wmname \
+                     flameshot \
+                     sxhkd \
+                     xfce4-power-manager \
+                     xsetroot \
+                     mpd 
