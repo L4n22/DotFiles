@@ -4,7 +4,7 @@ mkdir $HOME/.config/alacritty
 mv alacritty.yml $HOME/.config/alacritty
 mv xmonad $HOME/.xmonad
 sudo mv fonts/ /usr/share/fonts/fonts-dot
-cd /usr/share/fonts/fonts-dot | fc-cache -v -f
+cd /usr/share/fonts/fonts-dot && fc-cache -v -f
 
 #INSTALL ALACRITTY : https://github.com/alacritty/alacritty/blob/master/INSTALL.md
 
@@ -37,7 +37,7 @@ sudo apt install xmonad \
                      xsetroot \
                      mpd 
 #COMPILE XMONAD
-cd $HOME/.xmonad | xmonad --recompile
+cd $HOME/.xmonad && xmonad --recompile
 #if the polybar is not shown, then uninstall i3
 #sudo apt remove i3
 
