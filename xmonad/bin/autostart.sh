@@ -35,7 +35,7 @@ hsetroot -cover ~/.xmonad/wallpapers/wallpaper3.jpg
 #hsetroot -cover ~/.xmonad/wall/gruvbox_a1.png
 
 # Lauch notification daemon
-~/.xmonad/bin/xmodunst.sh
+#~/.xmonad/bin/xmodunst.sh
 
 # Lauch polybar
 ~/.xmonad/bin/launch.sh
