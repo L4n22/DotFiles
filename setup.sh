@@ -8,7 +8,7 @@ mv xmonad $HOME/.xmonad
 ## INSTALL CARGO : https://techviewleo.com/install-and-configure-alacritty-terminal-on-debian/
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 source $HOME/.cargo/env
-apt-get install cmake \
+sudo apt install cmake \
                 pkg-config \
                 libfreetype6-dev \
                 libfontconfig1-dev \
@@ -22,7 +22,7 @@ cd alacritty
 cargo build --release
 
 
-sudo apt-get install xmonad \
+sudo apt install xmonad \
                      rofi \
                      polybar \
                      xorg \
@@ -33,3 +33,6 @@ sudo apt-get install xmonad \
                      xfce4-power-manager \
                      xsetroot \
                      mpd 
+
+#if the polybar is not shown, then uninstall i3
+#sudo apt remove i3
