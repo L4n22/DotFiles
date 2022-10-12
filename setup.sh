@@ -23,7 +23,7 @@ sudo apt install cmake \
 git clone https://github.com/alacritty/alacritty.git
 cd alacritty
 cargo build --release
-
+sudo mv target/release/alacritty /usr/bin/
 
 sudo apt install xmonad \
                      rofi \
