@@ -31,6 +31,7 @@ sudo apt install xmonad \
                      xorg \
                      xinit \
                      open-vm-tools-desktop \
+                     hsetroot \
                      wmname \
                      flameshot \
                      sxhkd \
