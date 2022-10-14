@@ -35,7 +35,7 @@ sudo apt install xmonad \
                      flameshot \
                      sxhkd \
                      xfce4-power-manager \
-                     xsetroot \
+                     x11-xserver-utils \
                      mpd 
 #COMPILE XMONAD
 cd $HOME/.xmonad && xmonad --recompile
