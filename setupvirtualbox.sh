@@ -38,7 +38,8 @@ sudo apt install xmonad \
                      xfce4-power-manager \
                      x11-xserver-utils \
                      mpd \
-                     libxcb-composite0-dev
+                     libxcb-composite0-dev \
+                     virtualbox-ext-pack
  
 #install VirtualGuestAdditions 6.1.0
 #https://download.virtualbox.org/virtualbox/6.1.0/
