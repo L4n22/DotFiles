@@ -41,9 +41,9 @@ sudo apt install xmonad \
                      libxcb-composite0-dev \
                      virtualbox-ext-pack
  
-#install VirtualGuestAdditions 6.1.0
+#install VirtualGuestAdditions 6.1.38
 #https://download.virtualbox.org/virtualbox/6.1.0/
-#wget https://download.virtualbox.org/virtualbox/6.1.0/VBoxGuestAdditions_6.1.0.iso
+#wget https://download.virtualbox.org/virtualbox/6.1.38/VBoxGuestAdditions_6.1.38.iso
 #sudo mkdir /mnt/iso
 #sudo mount -t iso9660 -o loop VBoxGuestAdditions_6.0.0.iso /mnt/iso
 #sudo sh VBoxLinuxAdditions.run
