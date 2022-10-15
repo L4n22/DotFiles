@@ -33,6 +33,7 @@ sudo apt install xmonad \
                      xorg \
                      xinit \
                      hsetroot \
+                     wmname \
                      flameshot \
                      sxhkd \
                      xfce4-power-manager \
