@@ -42,7 +42,7 @@ sudo apt install xmonad \
                      virtualbox-ext-pack
  
 #install VirtualGuestAdditions 6.1.38
-#https://download.virtualbox.org/virtualbox/6.1.0/
+#https://download.virtualbox.org/virtualbox/6.1.38/
 #wget https://download.virtualbox.org/virtualbox/6.1.38/VBoxGuestAdditions_6.1.38.iso
 #sudo mkdir /mnt/iso
 #sudo mount -t iso9660 -o loop VBoxGuestAdditions_6.1.38.iso /mnt/iso
