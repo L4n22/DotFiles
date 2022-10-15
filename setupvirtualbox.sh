@@ -39,9 +39,13 @@ sudo apt install xmonad \
                      x11-xserver-utils \
                      mpd \
                      libxcb-composite0-dev
-                     
-                     
-
+ 
+#install VirtualGuestAdditions 6.1.0
+#https://download.virtualbox.org/virtualbox/6.1.0/
+#wget https://download.virtualbox.org/virtualbox/6.1.0/VBoxGuestAdditions_6.1.0.iso
+#sudo mkdir /mnt/iso
+#sudo mount -t iso9660 -o loop VBoxGuestAdditions_6.0.0.iso /mnt/iso
+#sudo sh VBoxLinuxAdditions.run
 #COMPILE XMONAD
 #cd $HOME/.xmonad && xmonad --recompile
 #if the polybar is not shown, then uninstall i3
