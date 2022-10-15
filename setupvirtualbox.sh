@@ -45,7 +45,7 @@ sudo apt install xmonad \
 #https://download.virtualbox.org/virtualbox/6.1.0/
 #wget https://download.virtualbox.org/virtualbox/6.1.38/VBoxGuestAdditions_6.1.38.iso
 #sudo mkdir /mnt/iso
-#sudo mount -t iso9660 -o loop VBoxGuestAdditions_6.0.0.iso /mnt/iso
+#sudo mount -t iso9660 -o loop VBoxGuestAdditions_6.1.38.iso /mnt/iso
 #sudo sh VBoxLinuxAdditions.run
 #COMPILE XMONAD
 cd $HOME/.xmonad && xmonad --recompile
