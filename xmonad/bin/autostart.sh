@@ -13,8 +13,8 @@ done
 
 sxhkd &
 flameshot &
-wmname LG3D &
-/usr/bin/vmware-user &
+wmname LG3D & #Remove this line if you are using virtualbox
+/usr/bin/vmware-user & #Remove this line if you are using virtualbox
 # Fix cursor
 xsetroot -cursor_name left_ptr
 
