@@ -47,6 +47,6 @@ sudo apt install xmonad \
 #sudo mount -t iso9660 -o loop VBoxGuestAdditions_6.0.0.iso /mnt/iso
 #sudo sh VBoxLinuxAdditions.run
 #COMPILE XMONAD
-#cd $HOME/.xmonad && xmonad --recompile
+cd $HOME/.xmonad && xmonad --recompile
 #if the polybar is not shown, then uninstall i3
 #sudo apt remove i3
