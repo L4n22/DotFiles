@@ -7,7 +7,7 @@ mv xmonad $HOME/.xmonad
 sudo mv fonts/ /usr/share/fonts/fonts-dot
 cd /usr/share/fonts/fonts-dot && fc-cache -v -f
 cd $HOME/.xmonad/bin/
-chmod 744 *
+chmod 744 *.sh
 #INSTALL ALACRITTY : https://github.com/alacritty/alacritty/blob/master/INSTALL.md
 
 ## INSTALL CARGO : https://techviewleo.com/install-and-configure-alacritty-terminal-on-debian/
