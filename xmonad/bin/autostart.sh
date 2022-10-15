@@ -10,7 +10,7 @@ for _prs in "${_ps[@]}"; do
 	fi
 done
 
-
+#xrandr --output Virtual1 --mode 1920x1080
 sxhkd &
 flameshot &
 wmname LG3D & #Remove this line if you are using virtualbox
