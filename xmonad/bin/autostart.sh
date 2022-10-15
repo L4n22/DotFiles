@@ -13,7 +13,7 @@ done
 #xrandr --output Virtual1 --mode 1920x1080
 sxhkd &
 flameshot &
-wmname LG3D & #Remove this line if you are using virtualbox
+wmname LG3D &
 /usr/bin/vmware-user & #Remove this line if you are using virtualbox
 #/usr/bin/VBoxClient --clipboard &  #add this line if you are using virtualbox version 6.1.38
 #/usr/bin/VBoxClient --vmsvga & #add this line if you are using virtualbox version 6.1.38
