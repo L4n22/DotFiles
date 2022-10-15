@@ -76,8 +76,11 @@ myWorkspaces    		= ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
 myKeys conf@(XConfig {XMonad.modMask = super}) = M.fromList $
 
     -- launch terminal
-    [ ((super, xK_Return), 			spawn $ XMonad.terminal conf)
-   -- , ((super .|. shiftMask, 		xK_Return), spawn "~/.xmonad/bin/xmoterm.sh --float")
+    [ ((super, xK_Return),                      spawn $ XMonad.terminal conf)
+
+     ,((super .|. shiftMask, xK_c), spawn "~/.xmonad/bin/xmoterm.sh --current")
+     , ((super .|. shiftMask,           xK_f), spawn "~/.xmonad/bin/xmoterm.sh --float")
+     , ((super .|. shiftMask, xK_h), spawn "~/.xmonad/bin/xmoterm.sh --full")
 
 	-- launch applications
 --    , ((super .|. shiftMask, 		xK_f), 		file_manager)
