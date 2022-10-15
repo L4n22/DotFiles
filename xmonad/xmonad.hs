@@ -78,7 +78,6 @@ myKeys conf@(XConfig {XMonad.modMask = super}) = M.fromList $
     -- launch terminal
     [ ((super, xK_Return),                      spawn $ XMonad.terminal conf)
 
-     ,((super .|. shiftMask, xK_c), spawn "~/.xmonad/bin/xmoterm.sh --current")
      , ((super .|. shiftMask,           xK_f), spawn "~/.xmonad/bin/xmoterm.sh --float")
      --, ((super .|. shiftMask, xK_h), spawn "~/.xmonad/bin/xmoterm.sh --full")
 
