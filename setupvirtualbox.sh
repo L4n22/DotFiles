@@ -37,7 +37,8 @@ sudo apt install xmonad \
                      sxhkd \
                      xfce4-power-manager \
                      x11-xserver-utils \
-                     mpd 
+                     mpd \
+                     libxcb-composite0-dev
                      
                      
 
