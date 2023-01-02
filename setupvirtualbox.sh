@@ -11,21 +11,23 @@ chmod 744 *.sh
 #INSTALL ALACRITTY : https://github.com/alacritty/alacritty/blob/master/INSTALL.md
 
 ## INSTALL CARGO : https://techviewleo.com/install-and-configure-alacritty-terminal-on-debian/
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-source $HOME/.cargo/env
+#curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+#source $HOME/.cargo/env
 sudo apt install cmake \
                 pkg-config \
                 libfreetype6-dev \
                 libfontconfig1-dev \
                 libxcb-xfixes0-dev \ 
                 libxkbcommon-dev \
-                python3
+                python3 \
+                virtualbox-guest-dkms \ 
+                virtualbox-guest-utils \
+                kitty
                 
-                
-git clone https://github.com/alacritty/alacritty.git
-cd alacritty
-cargo build --release
-sudo mv target/release/alacritty /usr/bin/
+#git clone https://github.com/alacritty/alacritty.git
+#cd alacritty
+#cargo build --release
+#sudo mv target/release/alacritty /usr/bin/
 
 sudo apt install xmonad \
                      rofi \
