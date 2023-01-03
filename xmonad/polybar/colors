@@ -9,7 +9,7 @@ background-alt = #D4CFC1
 foreground = #E5D5AE
 foreground-alt = #808080
 primary = #BB553F
-
+debian = #df0451
 #282828
  #black: '#282828'
   #  red: '#cc241d'
