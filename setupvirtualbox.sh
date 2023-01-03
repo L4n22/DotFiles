@@ -25,28 +25,29 @@ sudo apt install cmake \
                 virtualbox-guest-dkms \ 
                 virtualbox-guest-utils \
                 kitty \
-                pulseaudio
+                pulseaudio \
+                xmonad \
+                rofi \
+                polybar \
+                xorg \
+                xinit \
+                hsetroot \
+                wmname \
+                flameshot \
+                sxhkd \
+                xfce4-power-manager \
+                x11-xserver-utils \
+                mpd \
+                libxcb-composite0-dev \
+                virtualbox-ext-pack
+ 
                 
 #git clone https://github.com/alacritty/alacritty.git
 #cd alacritty
 #cargo build --release
 #sudo mv target/release/alacritty /usr/bin/
 
-sudo apt install xmonad \
-                     rofi \
-                     polybar \
-                     xorg \
-                     xinit \
-                     hsetroot \
-                     wmname \
-                     flameshot \
-                     sxhkd \
-                     xfce4-power-manager \
-                     x11-xserver-utils \
-                     mpd \
-                     libxcb-composite0-dev \
-                     virtualbox-ext-pack
- 
+#sudo apt install 
 #install VirtualGuestAdditions 6.1.38
 #https://download.virtualbox.org/virtualbox/6.1.38/
 #wget https://download.virtualbox.org/virtualbox/6.1.38/VBoxGuestAdditions_6.1.38.iso
