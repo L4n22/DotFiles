@@ -22,7 +22,8 @@ sudo apt install cmake \
                 python3 \
                 virtualbox-guest-dkms \ 
                 virtualbox-guest-utils \
-                kitty
+                kitty \
+                pulseaudio
                 
 #git clone https://github.com/alacritty/alacritty.git
 #cd alacritty
