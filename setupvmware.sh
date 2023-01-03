@@ -1,4 +1,4 @@
-#https://github.com/hertg/lightdm-neon login panel
+#https://github.com/manilarome/lightdm-webkit2-theme-glorious
 
 mv xinitrc $HOME/.xinitrc
 mv zprofile $HOME/.zprofile
@@ -19,29 +19,33 @@ sudo apt install cmake \
                 libfontconfig1-dev \
                 libxcb-xfixes0-dev \ 
                 libxkbcommon-dev \
-                python3
+                python3 \
+                lightdm \
+                kitty \
+                xmonad \
+                rofi \
+                polybar \
+                xorg \
+                xinit \
+                open-vm-tools-desktop \
+                hsetroot \
+                wmname \
+                flameshot \
+                sxhkd \
+                xfce4-power-manager \
+                x11-xserver-utils \
+                 mpd 
                 
                 
-git clone https://github.com/alacritty/alacritty.git
-cd alacritty
-cargo build --release
-sudo mv target/release/alacritty /usr/bin/
+#git clone https://github.com/alacritty/alacritty.git
+#cd alacritty
+#cargo build --release
+#sudo mv target/release/alacritty /usr/bin/
 
-sudo apt install xmonad \
-                     rofi \
-                     polybar \
-                     xorg \
-                     xinit \
-                     open-vm-tools-desktop \
-                     hsetroot \
-                     wmname \
-                     flameshot \
-                     sxhkd \
-                     xfce4-power-manager \
-                     x11-xserver-utils \
-                     mpd 
+
+                     
 #COMPILE XMONAD
-cd $HOME/.xmonad && xmonad --recompile
+#cd $HOME/.xmonad && xmonad --recompile
 #if the polybar is not shown, then uninstall i3
 #sudo apt remove i3
 
