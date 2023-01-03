@@ -14,8 +14,8 @@ done
 sxhkd &
 flameshot &
 wmname LG3D &
-/usr/bin/vmware-user & #Remove this line if you are using virtualbox
-#/usr/bin/VBoxClient --clipboard &  #add this line if you are using virtualbox version 6.1.38
+#/usr/bin/vmware-user & #Remove this line if you are using virtualbox
+/usr/bin/VBoxClient --clipboard &  #add this line if you are using virtualbox version 6.1.38
 #/usr/bin/VBoxClient --vmsvga & #add this line if you are using virtualbox version 6.1.38
 # Fix cursor
 xsetroot -cursor_name left_ptr
