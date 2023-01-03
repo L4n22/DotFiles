@@ -1,6 +1,6 @@
 #https://github.com/hertg/lightdm-neon login panel
 
-
+#install xmind https://snapcraft.io/install/xmind/debian
 mv xinitrc $HOME/.xinitrc
 mv zprofile $HOME/.zprofile
 mkdir $HOME/.config/alacritty
