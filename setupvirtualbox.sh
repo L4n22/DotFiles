@@ -41,7 +41,9 @@ sudo apt install cmake \
                 libxcb-composite0-dev \
                 virtualbox-ext-pack \
                 lightdm \
-                gtk2.0
+                gtk2.0 \
+                lxappearance
+                
  
                 
 #git clone https://github.com/alacritty/alacritty.git
