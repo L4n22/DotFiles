@@ -34,8 +34,7 @@ sudo apt install cmake \
                 sxhkd \
                 xfce4-power-manager \
                 x11-xserver-utils \
-                mpd \
-                light-locker
+                mpd
                 
                 
 #git clone https://github.com/alacritty/alacritty.git
