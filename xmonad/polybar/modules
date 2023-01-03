@@ -1159,3 +1159,12 @@ exec = ~/.xmonad/bin/polybar-forecast/config.toml
 exec-if = ping openweathermap.org -c 1
 interval = 6
 
+[module/debian]
+type = custom/text
+content = 
+;content-padding = 1
+content-font = 2
+content-foreground = ${color.debian}
+;content-padding-left = 5
+content-padding = 3
+
