@@ -40,7 +40,8 @@ sudo apt install cmake \
                 mpd \
                 libxcb-composite0-dev \
                 virtualbox-ext-pack \
-                lightdm
+                lightdm \
+                light-locker
  
                 
 #git clone https://github.com/alacritty/alacritty.git
