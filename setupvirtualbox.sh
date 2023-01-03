@@ -1,3 +1,5 @@
+#https://github.com/hertg/lightdm-neon login panel
+
 
 mv xinitrc $HOME/.xinitrc
 mv zprofile $HOME/.zprofile
