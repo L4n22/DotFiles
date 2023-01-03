@@ -35,7 +35,8 @@ sudo apt install cmake \
                 xfce4-power-manager \
                 x11-xserver-utils \
                 mpd \
-                gtk2.0
+                gtk2.0 \
+                lxappearance
                 
                 
 #git clone https://github.com/alacritty/alacritty.git
