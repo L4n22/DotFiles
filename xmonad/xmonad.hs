@@ -38,7 +38,9 @@ myTerminal = "~/.xmonad/bin/xmoterm.sh"
 -- Rofi Menus
 --rofi_asroot 		= spawn "~/.xmonad/rofi/bin/asroot"
 --rofi_launcher 		= spawn "~/.xmonad/rofi/bin/launcher"
-rofi_launcher = spawn "rofi -no-lazy-grab -show drun -modi run,drun,window -theme $HOME/.xmonad/rofi/themes/launcher.rasi"
+
+-- https://github.com/newmanls/rofi-themes-collection/blob/master/themes/rounded-blue-dark.rasi
+rofi_launcher = spawn "rofi -no-lazy-grab -show drun -modi run,drun,window -theme $HOME/.xmonad/rofi/themes/rounded-blue-dark.rasi"
 --rofi_mpd 			= spawn "~/.xmonad/rofi/bin/mpd"
 --rofi_network_menu 	= spawn "~/.xmonad/rofi/bin/network_menu"
 --rofi_powermenu 		= spawn "~/.xmonad/rofi/bin/powermenu"
