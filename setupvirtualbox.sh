@@ -39,7 +39,8 @@ sudo apt install cmake \
                 x11-xserver-utils \
                 mpd \
                 libxcb-composite0-dev \
-                virtualbox-ext-pack
+                virtualbox-ext-pack \
+                lightdm
  
                 
 #git clone https://github.com/alacritty/alacritty.git
