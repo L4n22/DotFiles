@@ -42,7 +42,8 @@ sudo apt install cmake \
                 virtualbox-ext-pack \
                 lightdm \
                 gtk2.0 \
-                lxappearance
+                lxappearance \
+                papirus-icon-theme
                 
  
                 
