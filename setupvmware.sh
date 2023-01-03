@@ -36,7 +36,8 @@ sudo apt install cmake \
                 x11-xserver-utils \
                 mpd \
                 gtk2.0 \
-                lxappearance
+                lxappearance \
+                papirus-icon-theme
                 
                 
 #git clone https://github.com/alacritty/alacritty.git
