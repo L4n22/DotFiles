@@ -40,7 +40,6 @@ sudo apt install cmake \
                 mpd \
                 libxcb-composite0-dev \
                 virtualbox-ext-pack \
-                lightdm \
                 gtk2.0 \
                 lxappearance \
                 papirus-icon-theme
