@@ -32,7 +32,7 @@ xfce4-power-manager &
 
 # Restore wallpaper
 #hsetroot -cover /usr/share/backgrounds/nordic-wallpapers-git/sola.png
-hsetroot -cover ~/.xmonad/wallpapers/wallpaper3.jpg
+hsetroot -cover /usr/share/backgrounds/kali-16x9/kali-red-sticker.jpg 
 #hsetroot -cover ~/.xmonad/wall/a3.png
 #hsetroot -cover ~/.xmonad/wall/gruvbox_a1.png
 
@@ -47,3 +47,5 @@ hsetroot -cover ~/.xmonad/wallpapers/wallpaper3.jpg
 
 # Start mpd
 exec mpd &
+
+picom --config ~/.xmonad/picom.conf &
