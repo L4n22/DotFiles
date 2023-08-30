@@ -1,4 +1,3 @@
-
 -- ## Modules ## -------------------------------------------------------------------
 import XMonad
 import XMonad.Util.SpawnOnce
@@ -23,7 +22,7 @@ import qualified Data.Map        as M
 
 -- ## Startup hook ## ---------------------------------------------------------------
 myStartupHook = do
-	 spawn "bash ~/.xmonad/bin/autostart.sh"
+	spawn "bash ~/.xmonad/bin/autostart.sh"
 
 -- ## Applications ## ---------------------------------------------------------------
 -- Terminal
@@ -37,10 +36,7 @@ myTerminal = "~/.xmonad/bin/xmoterm.sh"
 
 -- Rofi Menus
 --rofi_asroot 		= spawn "~/.xmonad/rofi/bin/asroot"
---rofi_launcher 		= spawn "~/.xmonad/rofi/bin/launcher"
-
--- https://github.com/newmanls/rofi-themes-collection/blob/master/themes/rounded-blue-dark.rasi
-rofi_launcher = spawn "rofi -no-lazy-grab -show drun -modi run,drun,window -theme $HOME/.xmonad/rofi/themes/rounded-blue-dark.rasi"
+rofi_launcher = spawn "~/.xmonad/rofi/bin/launcher"
 --rofi_mpd 			= spawn "~/.xmonad/rofi/bin/mpd"
 --rofi_network_menu 	= spawn "~/.xmonad/rofi/bin/network_menu"
 --rofi_powermenu 		= spawn "~/.xmonad/rofi/bin/powermenu"
@@ -78,9 +74,10 @@ myWorkspaces    		= ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
 myKeys conf@(XConfig {XMonad.modMask = super}) = M.fromList $
 
     -- launch terminal
-    [ ((super, xK_Return),                      spawn $ XMonad.terminal conf)
+   -- [ ((super, xK_Return),                      spawn $ XMonad.terminal conf)
+     [ ((super .|. shiftMask, xK_Return), spawn "kitty")
 
-     , ((super .|. shiftMask,           xK_f), spawn "~/.xmonad/bin/xmoterm.sh --float")
+--     , ((super .|. shiftMask,           xK_f), spawn "~/.xmonad/bin/xmoterm.sh --float")
      --, ((super .|. shiftMask, xK_h), spawn "~/.xmonad/bin/xmoterm.sh --full")
 
 	-- launch applications
@@ -195,7 +192,7 @@ myKeys conf@(XConfig {XMonad.modMask = super}) = M.fromList $
   --  , ((super,					xK_period),		sendMessage (IncMasterN (-1)))
 
     -- Restart xmonad
-    , ((super, 						 xK_q), kill)
+    , ((super, 						xK_q), kill)
 
     ]
     ++
