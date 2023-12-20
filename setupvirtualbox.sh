@@ -3,11 +3,11 @@
 #install xmind https://snapcraft.io/install/xmind/debian
 mv xinitrc $HOME/.xinitrc
 mv zprofile $HOME/.zprofile
-mkdir $HOME/.config/alacritty
-mv alacritty.yml $HOME/.config/alacritty
+mkdir $HOME/.config/kitty
+mv .config/kitty/kitty.conf $HOME/.config/kitty.conf
 mv xmonad $HOME/.xmonad
 sudo mv fonts/ /usr/share/fonts/fonts-dot
-cd /usr/share/fonts/fonts-dot && fc-cache -v -f
+#cd /usr/share/fonts/fonts-dot && fc-cache -v -f
 cd $HOME/.xmonad/bin/
 chmod 744 *.sh
 #INSTALL ALACRITTY : https://github.com/alacritty/alacritty/blob/master/INSTALL.md
