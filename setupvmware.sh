@@ -37,7 +37,6 @@ sudo apt install cmake \
                 xfce4-power-manager \
                 x11-xserver-utils \
                 mpd \
-                gtk2.0 \
                 lxappearance \
                 papirus-icon-theme
                 
