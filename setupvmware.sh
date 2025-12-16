@@ -15,9 +15,9 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 source $HOME/.cargo/env
 sudo apt install cmake \
                 pkg-config \
-                libfreetype6-dev \
+                libfreetype-dev \
                 libfontconfig1-dev \
-                libxcb-xfixes0-dev \ 
+                libxcb-xfixes0-dev \
                 libxkbcommon-dev \
                 python3 \
                 lightdm \
@@ -29,7 +29,9 @@ sudo apt install cmake \
                 xinit \
                 open-vm-tools-desktop \
                 hsetroot \
-                wmname \
+                suckless-tools \
+                libgtk2.0-0 \
+                libgtk2.0-dev \
                 flameshot \
                 sxhkd \
                 xfce4-power-manager \
